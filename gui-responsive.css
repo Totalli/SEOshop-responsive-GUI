@@ -1,0 +1,452 @@
+/*=========================================
+gui-responsive by SEOshop Group B.V.
+Version 1.0 - 20-01-2014
+=========================================*/
+#gui-wrapper {
+  margin:0 auto;
+}
+.gui-col2-right .gui-col2-right-col2 {
+  display:none;
+}
+.gui-block {
+  border-color: #DDDDDD;
+  border-radius: 2px;
+}
+.gui-block-title {
+  background-image: none;
+  border-radius: 2px 2px 0 0;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.gui-block-subtitle {
+  font-size: 15px;
+  line-height: 25px;
+  padding-bottom: 1.5%;
+  height: auto;
+}
+.gui-block-content {
+  background-image:none;
+  padding:10px;
+  border-radius:2px;
+}
+.gui-form label {
+  font-weight: normal;
+  line-height: 32px;
+  height: auto;
+}
+.gui-select {
+  background-image:none;
+  border-radius: 2px;
+  box-shadow: none;
+  height:32px;
+}
+.gui-select .gui-value {
+  height:32px;
+  line-height:32px;
+}
+.gui-select .gui-handle {
+  margin:3px 0;
+}
+.gui-form .gui-checkbox input, 
+.gui-form .gui-radio input {
+  margin:8px 0;
+}
+.gui-required {
+  margin-top:2.5%;
+}
+.gui-buttons.gui-border {
+  padding-top:2.5%;
+}
+.gui-left {
+  float:none;
+}
+.gui-input {
+  height:32px;
+}
+input, select {
+  background:transparent!important;
+}
+.gui-input, 
+.gui-text {
+  padding:0;
+  text-indent:10px;
+  width:100%;
+  background-image:none;
+  border-radius:2px;
+  box-shadow:none;
+}
+.gui-input input {
+  height:25px;
+}
+.gui-right {
+  float:none;
+  width:100%;
+}
+.gui-buttons .gui-right {
+  margin:0;
+}
+.gui-table {
+  border-width:1px;
+  border-radius:2px;
+  right:0;
+  width:auto;
+}
+.gui-buttons {
+  height:inherit;
+  margin-top:2.5%;
+}
+.gui a.gui-button-small {
+  border-radius: 2px;
+  font-weight: normal;
+  float: right;
+  font-size: 11px;
+  padding: 0 10px;
+  box-shadow:none;
+  height: 32px;
+  background-position: 0 19px;
+  line-height: 32px;
+}
+.gui-button-small.gui-button-action {
+  left: 0;
+  width: 100%;
+}
+.gui a.gui-button-small:focus,
+.gui a.gui-button-large:focus {
+  background-color:#EEE;
+  border-color:#CCC;
+}
+.gui-button-large.gui-button-action{
+  width:100%!important;
+  margin:0!important;
+}
+.gui a.gui-button-small.gui-button-action,
+.gui a.gui-button-large {
+  font-size:14px;
+  height:48px;
+  border-radius:2px;
+  line-height:46px;
+  width:100%;
+  padding:0;
+  font-weight:normal;
+  background-image:none;
+  border:0px!important;
+}
+.gui-progressbar {  
+  border:1px solid #EEE;
+  border-radius:2px;
+  box-shadow:none;
+  margin-bottom:20px;
+  background-image:none;
+}
+.gui-progressbar a.gui-cart {
+  border-radius:2px 0 0 2px;
+}
+.gui-progressbar a.gui-cart span {
+  background:url(gui-progressbar-cart.png) -9px -3px no-repeat;
+}
+.gui-progressbar ul li {
+  background-image:none;
+}
+.gui-progressbar ul li a {
+  font-weight:normal;
+}
+.gui-progressbar ul li a span { 
+  background-image:none;
+  border-color:#D5D5D5;
+  box-shadow:none;
+  color:#333;
+  font-size:10px;
+  font-weight:normal;
+  margin-left:20%;
+  margin-top:7px;
+}
+.gui-progressbar ul li.gui-active a, 
+.gui-progressbar ul li.gui-done a {
+  text-shadow:none;
+}
+.gui-progressbar ul li.gui-active a span,
+.gui-progressbar ul li.gui-done a span {   
+  border-color:#EEE;
+  color:#FFF;
+  text-indent:0;
+}
+.gui-progressbar .gui-indicator .gui-progress,
+.gui-progressbar ul li:last-child {
+  border-radius:0;
+}
+/* Number updown */
+.gui-number {
+  border-radius:2px;
+  box-shadow:none;
+  border-color:#DDDDDD;
+}
+.gui-number .gui-value {
+  background:none;
+}
+.gui-number .gui-handle {
+  border-color:#DDDDDD;
+}
+/* Related products */
+.gui ul.gui-products {
+  margin:0;
+}
+.gui ul.gui-products li .gui-products-title {
+  text-overflow:ellipsis;
+}
+.gui ul.gui-products li .gui-products-info a {
+  font-size:11px;
+}
+.gui ul.gui-products li .gui-products-price {
+  font-size:12px;
+}
+.gui-cart .gui-div-cart-coupons .gui-block {
+  border-radius:2px;
+}
+.gui-cart .gui-div-cart-coupons .gui-block-title,
+.gui-cart .gui-div-cart-coupons .gui-form label {
+  display:none;
+}
+.gui-cart .gui-div-cart-coupons .gui-div-cart-shipping .gui-block-title,
+.gui-cart .gui-div-cart-coupons .gui-div-cart-shipping .gui-form label {
+  display:inherit;
+}
+#gui-form-shipping .gui-form .gui-checkbox input, 
+#gui-form-shipping .gui-form .gui-radio input {
+  float:left;
+}
+.gui-checkout-method .gui-col2-equal-col1 .gui-left {
+  float:left;
+}
+.gui-checkout-method .gui-col2-equal-col1 .gui-left a {
+  margin-top:10px;
+}
+.gui-checkout-method .gui-col2-equal-col1 .gui-right {
+  float:right;
+  width:50%;
+}
+.gui-checkout-method .gui-col2-right .gui-col2-right-col1 {
+  width:100%;
+}
+.gui-checkout-method .gui-col2-equal .gui-col2-equal-col1, 
+.gui-checkout-method .gui-col2-equal .gui-col2-equal-col2 {
+  background: #F9F9F9;
+  border: 1px solid #EEE;
+  padding: 2%;
+  border-radius: 2px;
+  width: 44.5%;
+  float: left;
+}
+.gui-checkout-method .gui-col2-equal .gui-col2-equal-col2 {
+  float: right;
+  margin-top:0;
+}
+#gui-form-cart .gui-table tbody tr:nth-last-child(1) td:nth-child(1) a {
+  font-size:11px;
+}
+.gui-cart .gui-cart-sum {
+  margin-bottom:5%;
+}
+.gui-table thead tr th {
+  border-bottom:0;
+}
+.gui-cart-sum .gui-item .gui-price {
+  margin-right:2.5%;
+}
+.gui-checkout-details .gui-col2-right .gui-col2-right-col1 {
+  width:100%;
+}
+.gui-checkout-details .gui-block-content .gui-col2-equal,
+.gui-checkout-details .gui-block-content #gui-block-company .gui-field {
+  background: #F9F9F9;
+  border: 1px solid #EEE;
+  padding: 2%;
+  border-radius: 2px;
+}
+.gui-checkout-details .gui-block-content #gui-block-company .gui-col2-equal .gui-field {
+  padding:0;
+  border:0;
+  background:none;
+  border-radius:0;
+}
+.gui-checkout-details .gui-col2-equal .gui-col2-equal-col1, 
+.gui-checkout-details .gui-col2-equal .gui-col2-equal-col2 {
+  margin: 0;
+}
+.gui-checkout-details a.gui-button-link {
+  margin-bottom: 2.5%;
+  line-height: inherit;
+  height: auto;
+  font-size:11px;
+}
+.gui-checkout-shipment .gui-col2-right .gui-col2-right-col1 {
+  width:100%;
+}
+.gui-checkout-shipment a.gui-button-link {
+  margin-bottom: 2.5%;
+  line-height: inherit;
+  height: auto;
+  font-size:11px;
+}
+.gui-checkout-shipment .gui-block-option {
+  padding: 2.5%;
+  margin: 0;
+  border-radius: 2px;
+  text-shadow: none;
+}
+.gui-checkout-payment .gui-col2-right .gui-col2-right-col1 {
+  width:100%;
+}
+.gui-checkout-payment a.gui-button-link {
+  margin-bottom: 2.5%;
+  line-height: inherit;
+  height: auto;
+  font-size:11px;
+}
+.gui-checkout-confirm .gui-col2-right .gui-col2-right-col2 {
+  display:inherit;
+}
+.gui-checkout-confirm .gui-col2-right .gui-col2-right-col2 .gui-block-subtitle a {
+  font-size:11px;
+}
+.gui-checkout-confirm #gui-form .gui-block .gui-text #gui-form-comment {
+  width: 98%!important;
+}
+.gui-checkout-confirm .gui-block.gui-block-highlight .gui-block-title {
+  text-shadow:none;
+  border:0;
+}
+.gui-checkout-confirm #gui-form .gui-col2-equal .gui-col2-equal-col2 {
+  width:100%;
+}
+.gui-checkout-confirm .gui-block.gui-block-highlight .gui-block-content {
+  background:none;
+}
+.gui-checkout-confirm {
+}
+.gui-account .gui-block-linklist li a {
+  font-size:12px;
+}
+.gui-account .gui-account-cart {
+  display:none;
+}
+/* gui-blog */
+.gui-blog #comment .gui-block {
+  margin-top: 2.5%;
+  background: #F9F9F9;
+  border: 1px solid #DCDCDC!important;
+  padding: 2%;
+  width: 95.5%!important;
+  border-radius: 2px;
+  float: none;
+}
+.gui-blog #comment .gui-block .gui-block-title {
+  border-bottom: 1px solid #DCDCDC;
+  margin-bottom: 10px;
+}
+.gui-blog #comment .gui-col2-equal .gui-col2-equal-col1,
+.gui-blog #comment .gui-col2-equal .gui-col2-equal-col2 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%!important;
+}
+.gui-blog #comment .gui-form .gui-field-info {
+  height: 0;
+  line-height: 28px;
+  padding: 8px 0 0 0;
+  font-size: 11px;
+  float: right;
+}
+@media (max-width: 480px) { 
+  .wrapper {
+    width:100%!important;
+  }
+  #gui-wrapper {
+    width:95%;
+  }
+  .gui-progressbar ul li a {
+    text-indent: -9999px;
+  }
+  .gui-col3-equal-col1.gui-div-cart-related,
+  .gui-cart .gui-div-cart-shipping {
+    display:none;
+  }
+  .gui-col3-equal .gui-col3-equal-col2.gui-div-cart-coupons {
+    float:none;
+    width:100%;
+  }
+  .gui-col3-equal .gui-col3-equal-col3 {
+    width:100%;
+  }
+  .gui-checkout-method .gui-col2-equal .gui-col2-equal-col1,
+  .gui-checkout-method .gui-col2-equal .gui-col2-equal-col2 {
+    width: 95.7%;
+  }
+  .gui-checkout-method .gui-col2-equal .gui-col2-equal-col1 {
+    margin-top:16px;
+  }
+  .gui-table table thead tr th:nth-child(5),
+  .gui-table table tbody tr td:nth-child(5) {
+    display:none;
+  }
+  .gui-checkout-details .gui-col2-equal .gui-col2-equal-col1, 
+  .gui-checkout-details .gui-col2-equal .gui-col2-equal-col2 {
+    width:100%;
+    float:none;
+  }
+  .gui-checkout-confirm .gui-col2-right .gui-col2-right-col1 {
+    width:100%;
+  }
+  .gui-checkout-confirm .gui-col2-right .gui-col2-right-col2 {
+    display:none;
+  }
+  .gui-checkout .gui-form .gui-checkbox label {
+    white-space:normal;
+    width: 90%;
+    padding: 0;
+  }
+  .gui-thankyou .gui-col2-big .gui-col2-big-col2 {
+    width:100%;
+  }
+  .gui-account .gui-col2-left .gui-col2-left-col1,
+  .gui-account .gui-col2-left .gui-col2-left-col2 {
+    width:100%;
+  }
+  .gui-cart span.valueAmount {
+    display:block;
+    text-align:center;
+  }
+  .gui-cart .gui-table a.gui-button-small {
+    visibility:hidden;
+  }  
+  .gui-cart .gui-table tbody tr td:first-child {
+    padding:0;
+  }
+  .gui-cart .gui-table tbody tr td:first-child .gui-image {
+    display:none;  
+  }
+  .gui-checkout-confirm #gui-form .gui-block .gui-text #gui-form-comment {
+    width: 96%!important;
+  }
+}
+@media (max-width: 767px) { 
+  .wrapper {
+    width:100%!important;
+  }
+  .gui-progressbar ul li a {
+    text-indent:-9999px;
+  }  
+  #gui-wrapper {
+    width:95%;
+  }
+  .gui-thankyou .gui-col2-big .gui-col2-big-col2 {
+    width:100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) { 
+  .wrapper {
+    width:100%!important;
+  }
+  #gui-wrapper {
+    width:95%;
+  }
+}
